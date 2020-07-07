@@ -27,4 +27,22 @@
 - En yüksek başarı oranına sahip modelin 'Random Forest Classifier' olması ve bu tahminlerinin yazdırılması
 - Kendi yazmış olduğum değerler ile Random Forest Modeli ile hayatta kalıp kalamayacağımın tahmin edilmesi gerçekleştirilmiştir.
 
+Veri Setindeki Sütunlar :
+pclass: Yolcu Sınıfı (1 = 1'nci sınıf; 2 = 2'nci sınıf; 3 = 3'ncu sınıf)
+survived: Hayatta Kalma (0 = Hayır; 1 = Evet)
+name: Ad
+sex: Cinsiyet
+age: Yaş
+sibsp: Gemideki kardeş/eş sayısı (örn: erkek kardeş, kız kardeş, üvey erkek kardeş, üvey kız kardeş)
+parch: Gemideki ebeveyn/çocuk sayısı (örn: kız evlat, erkek evlat, üvey evlat)
+fare: Yolcu ücreti (İngiliz Pound'u)
+embarked: Bindiği Liman (C = Cherbourg; Q = Queenstown; S = Southampton)
+adult_male: 18 yaşından büyük bir erkek mi ? (0 = Hayır, 1 = Evet)
+deck: Geminin güvertesi
+who: man (18+), woman (18+), child (<18)
+alive: Yes, no
+embarked_town: Port of embarkation ( Cherbourg, Queenstown, Southampton)
+class: Passenger class (1st; 2nd; 3rd)
+alone: 1= alone, 0= not alone ( you have at least 1 sibling, spouse, parent or child on board)
+
 
