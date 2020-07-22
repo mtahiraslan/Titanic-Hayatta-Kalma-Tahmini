@@ -41,8 +41,8 @@ adult_male: 18 yaşından büyük bir erkek mi ? (0 = Hayır, 1 = Evet)
 deck: Geminin güvertesi
 who: man (18+), woman (18+), child (<18)
 alive: Yes, no
-embarked_town: Port of embarkation ( Cherbourg, Queenstown, Southampton)
-class: Passenger class (1st; 2nd; 3rd)
-alone: 1= alone, 0= not alone ( you have at least 1 sibling, spouse, parent or child on board)
+embarked_town: Gemiye binilen liman ( Cherbourg, Queenstown, Southampton)
+class: Yolcu sınıfları (1st; 2nd; 3rd)
+alone: 1= yanlız olan, 0= yanlız olmayan ( gemide en az 1 kardeş, eş, ebeveyn veya çocuk var)
 
 
