@@ -1,48 +1,44 @@
-# Titanic-Hayatta-Kalma-Tahmini
+On Jupyter Notebook with 'titanic.csv' dataset;
 
-'titanic.csv' veri seti ile Jupyter Notebook üzerinde ;
+- Importing required libraries
+- Uploading data
+- Row and column information in the dataset
+- Accessing statistical information in the data set
+- Number of survivors
+- Visualize the number of survivors
+- Visualization of 'who','sex','pclass','sibsp','parch','embarked' columns in the dataset
+- Calculation of survival rate by gender
+- Visualization of survivors by gender and class
+- Survival rate and visualization of each class
+- Survival rates by age, class and gender
+- Ticket price paid for each class and its visualization
+- Values and their number in the data set
+- Dropping columns we don't need and deleting columns with missing values
+- Encoding of columns
+- Splitting independent 'X' and dependent 'Y' variable from data information
+- Reserve 80% of the dataset for train and 20% for testing
+- Scaling of data
+- Using Logistic Regression, k Neighbors, SVC Linear, SVC RBF, Gaussian Naive Bayes, Decision Tree and Random Forest models
+- Recruitment and training of all models
+- Finding the complexity matrix and Accuracy values of all models in the test data
+- Feature and Importance visualization
+- The model with the highest success rate is 'Random Forest Classifier' and these predictions are printed
+- With the values I wrote, it was estimated whether I would survive with the Random Forest Model.
 
-- Gerekli kütüphanelerin import edilmesi
-- Verilerin yüklenmesi
-- Veri setindeki satır ve sütun bilgisi
-- Veri setindeki istatistiki bilgilere ulaşma
-- Hayatta kalabilenlerin sayısı
-- Hayatta kalabilenlerin sayısını görselleştirme
-- Veri setindeki 'who','sex','pclass','sibsp','parch','embarked' sütunların görselleştirmesi
-- Cinsiyete göre hayatta kalma oranının hesaplanması
-- Cinsiyet ve sınıfa göre hayatta kalanların görselleştirilmesi
-- Her class'ın (sınıfın) hayatta kalma oranı ve görselleştirilmesi
-- Yaş, sınıf ve cinsiyete göre hayatta kalma oranları
-- Her sınıf için ödenen bilet fiyatı ve bunun görselleştirilmesi
-- Veri setindeki değerler ve onların sayısı
-- İhtiyacımız olmayan sütunların drop edilmesi ve eksik değerleri olan sütunların silinmesi
-- Sütunların encode edilmesi
-- Veri bilgisinden bağımsız 'X' ve bağımlı 'Y' değişkeninin split edilmesi
-- Veri setini %80 train ve %20'sinin test için ayrılması
-- Verilerin ölçeklendirilmesi
-- Logistic Regression, k Neighbors, SVC Linear, SVC RBF, Gaussian Naive Bayes, Decision Tree ve Random Forest modellerinin kullanılması
-- Tüm modellerin alınıp eğitilmesi
-- Test verilerindeki tüm modellerin karmaşıklık matrisi ve Accuracy değerlerinin bulunması
-- Feature ve Importance görselleştirilmesi
-- En yüksek başarı oranına sahip modelin 'Random Forest Classifier' olması ve bu tahminlerinin yazdırılması
-- Kendi yazmış olduğum değerler ile Random Forest Modeli ile hayatta kalıp kalamayacağımın tahmin edilmesi gerçekleştirilmiştir.
-
-Veri Setindeki Sütunlar :
-pclass: Yolcu Sınıfı (1 = 1'nci sınıf; 2 = 2'nci sınıf; 3 = 3'ncu sınıf)
-survived: Hayatta Kalma (0 = Hayır; 1 = Evet)
-name: Ad
-sex: Cinsiyet
-age: Yaş
-sibsp: Gemideki kardeş/eş sayısı (örn: erkek kardeş, kız kardeş, üvey erkek kardeş, üvey kız kardeş)
-parch: Gemideki ebeveyn/çocuk sayısı (örn: kız evlat, erkek evlat, üvey evlat)
-fare: Yolcu ücreti (İngiliz Pound'u)
-embarked: Bindiği Liman (C = Cherbourg; Q = Queenstown; S = Southampton)
-adult_male: 18 yaşından büyük bir erkek mi ? (0 = Hayır, 1 = Evet)
-deck: Geminin güvertesi
-who: man (18+), woman (18+), child (<18)
-alive: Yes, no
-embarked_town: Gemiye binilen liman ( Cherbourg, Queenstown, Southampton)
-class: Yolcu sınıfları (1st; 2nd; 3rd)
-alone: 1= yanlız olan, 0= yanlız olmayan ( gemide en az 1 kardeş, eş, ebeveyn veya çocuk var)
-
-
+Columns in Data Set:
+pclass: Passenger Class (1 = 1st class; 2 = 2nd class; 3 = 3rd class)<br>
+survived: Survival (0 = No; 1 = Yes)<br>
+name: Name<br>
+sex: Gender<br>
+age: age<br>
+sibsp: Number of siblings/wives on board (eg: brother, sister, half-brother, half-sister)<br>
+parch: Number of parents/children on board (eg: daughter, son, stepchild)<br>
+fare: Passenger fare (British Pounds)<br>
+embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)<br>
+adult_male: A male over 18 years old? (0 = No, 1 = Yes)<br>
+deck: Ship's deck<br>
+who: man (18+), woman (18+), child (<18)<br>
+alive: Yes, no<br>
+embarked_town: Embarkation port ( Cherbourg, Queenstown, Southampton)<br>
+class: Passenger classes (1st; 2nd; 3rd)<br>
+alone:1=alone, 0=not alone (at least 1 sibling, spouse, parent or child on board)<br>
